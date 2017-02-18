@@ -11,7 +11,6 @@ body {
 	padding: 20px;
 	border: 2px solid #d3d3d3;
 	border-radius: 10px;
-    max-width: 541px;
 }
 
 .heading {
@@ -40,6 +39,8 @@ body {
 
 .item {
 	outline: none;
+	max-width: 540px;
+	word-wrap: break-word;    
 }
 
 .item:hover {
